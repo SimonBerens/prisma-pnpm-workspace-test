@@ -1,0 +1,4 @@
+**/node_modules/
+.idea/
+prisma-pnpm-workspace-test.iml
+.pnpm-debug.log
