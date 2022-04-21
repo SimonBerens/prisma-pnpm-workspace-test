@@ -21,12 +21,6 @@ importers:
       eslint: 8.13.0
       eslint-config-next: 12.1.5_73f9dd19bec33b69290ec95d96fcfe5a
 
-  apps/service:
-    specifiers:
-      '@x/prisma': workspace:^0.0.0
-    dependencies:
-      '@x/prisma': link:../../packages/prisma
-
   packages/prisma:
     specifiers:
       '@prisma/client': ^3.12.0
